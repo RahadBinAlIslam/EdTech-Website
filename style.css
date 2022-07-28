@@ -1,0 +1,43 @@
+.card-img-overlay{
+    filter: brightness(60%);
+}
+
+.custom-color{
+    background-color: #289BDE;
+}
+
+.custom-font{
+    color: #289BDE;
+}
+
+.custom-background{
+    background-color: #F4FAFD;
+}
+
+@media screen and (max-width: 576px){
+    .font{
+        font-size: 0.5rem;
+    }
+
+    .mobile{
+        text-align: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .font{
+        align-items: center;
+    }
+
+    .mobile{
+        text-align: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .font{
+        align-items: center;
+    }
+}

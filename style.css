@@ -1,3 +1,7 @@
+body{
+    margin: 0%;
+}
+
 .img-overlay{
     filter: brightness(60%);
 }
@@ -13,10 +17,6 @@
 .custom-background{
     background-color: #F4FAFD;
 }
-
-.btn {
-    outline-color: #289BDE;
-    }
 
 @media screen and (max-width: 576px){
     .font{

@@ -1,4 +1,4 @@
-.card-img-overlay{
+.img-overlay{
     filter: brightness(60%);
 }
 
@@ -14,6 +14,10 @@
     background-color: #F4FAFD;
 }
 
+.btn {
+    outline-color: #289BDE;
+    }
+
 @media screen and (max-width: 576px){
     .font{
         font-size: 0.5rem;
@@ -22,6 +26,14 @@
     .mobile{
         text-align: center;
         flex-direction: column;
+    }
+
+    .trust{
+        display: none;
+    }
+
+    .exclusive{
+        display: none;
     }
 }
 
@@ -33,6 +45,10 @@
     .mobile{
         text-align: center;
         flex-direction: column;
+    }
+
+    .trust{
+        display: none;
     }
 }
 
